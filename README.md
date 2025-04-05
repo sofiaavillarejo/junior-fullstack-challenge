@@ -45,7 +45,7 @@ Esta prueba consiste en completar una API y desarrollar una pequeña aplicación
 
 ## 💻 Frontend
 
-El objetivo es desarrollar una **aplicación web en React** que consuma la API REST anterior.
+El objetivo es desarrollar una **aplicación web en React** que consuma la API REST anterior. El uso de **Typescript** es obligatorio.
 
 ### 🎯 Requisitos mínimos funcionales
 
