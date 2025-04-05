@@ -73,3 +73,15 @@ Tu aplicación debe permitir:
 
 - Si ya tienes experiencia, podrías completarlo en unas 3-4 horas.
 - Si estás empezando, puede llevarte algo más. Se valorará la calidad y la claridad del código, no solo que funcione.
+
+---
+
+## 🚚 Cómo entregarlo
+
+1. **Haz un fork** de este repositorio.
+2. Clona el repositorio a tu máquina local y realiza los cambios necesarios para completar la prueba.
+3. Una vez que hayas completado la prueba, **haz un commit de tus cambios**.
+4. **Sube tus cambios** al repositorio de tu fork.
+5. Envía la URL de tu repositorio con la solución a través del medio indicado (email, plataforma de evaluación, etc.).
+
+> **Nota**: Asegúrate de que tu código esté limpio, documentado y funcional antes de enviarlo.
