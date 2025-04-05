@@ -2,10 +2,10 @@ namespace LebenChallenge.Domain
 {
     public class TaskItem
     {
-        public int Id { get; }
-        public string Name { get; }
-        public string Description { get; }
-        public DateTime DueDate { get; }
+        public int Id { get; private set; }
+        public string Name { get; private set; }
+        public string Description { get; private set; }
+        public DateTime DueDate { get; private set; }
         public bool IsCompleted { get; private set; }
 
         public TaskItem()

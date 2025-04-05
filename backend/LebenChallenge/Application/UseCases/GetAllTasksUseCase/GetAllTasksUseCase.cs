@@ -14,6 +14,6 @@ public class GetAllTasksUseCase : IGetAllTasksUseCase
 
     public Task<IEnumerable<TaskItem>> ExecuteAsync()
     {
-        throw new NotImplementedException("GetAllTasksUseCase is not implemented yet.");
+        return _taskRepository.GetAllAsync();
     }
 }
