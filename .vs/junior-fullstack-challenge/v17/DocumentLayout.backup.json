@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\.vs\\tasks.vs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\tasks.vs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Api\\Controllers\\TaskItemController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\LebenChallenge\\Api\\Controllers\\TaskItemController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\LebenChallenge.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\LebenChallenge\\LebenChallenge.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Infrastructure\\Repositories\\TaskRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\LebenChallenge\\Infrastructure\\Repositories\\TaskRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\GetTaskByIdUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\GetTaskByIdUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\IGetTaskBIdUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\IGetTaskBIdUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\DTO\\CompleteTaskDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\LebenChallenge\\Application\\DTO\\CompleteTaskDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\DTO\\CreateTaskDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\LebenChallenge\\Application\\DTO\\CreateTaskDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\DTO\\DeleteTaskDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\LebenChallenge\\Application\\DTO\\DeleteTaskDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\Interfaces\\ITaskRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\LebenChallenge\\Application\\Interfaces\\ITaskRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tasks.vs.json",
+              "DocumentMoniker": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\.vs\\tasks.vs.json",
+              "RelativeDocumentMoniker": ".vs\\tasks.vs.json",
+              "ToolTip": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\.vs\\tasks.vs.json",
+              "RelativeToolTip": ".vs\\tasks.vs.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T16:36:13.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LebenChallenge.csproj",
+              "DocumentMoniker": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\LebenChallenge.csproj",
+              "RelativeDocumentMoniker": "backend\\LebenChallenge\\LebenChallenge.csproj",
+              "ToolTip": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\LebenChallenge.csproj",
+              "RelativeToolTip": "backend\\LebenChallenge\\LebenChallenge.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T16:27:32.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGetTaskBIdUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\IGetTaskBIdUseCase.cs",
+              "RelativeDocumentMoniker": "backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\IGetTaskBIdUseCase.cs",
+              "ToolTip": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\IGetTaskBIdUseCase.cs",
+              "RelativeToolTip": "backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\IGetTaskBIdUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:22:47.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetTaskByIdUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\GetTaskByIdUseCase.cs",
+              "RelativeDocumentMoniker": "backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\GetTaskByIdUseCase.cs",
+              "ToolTip": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\GetTaskByIdUseCase.cs",
+              "RelativeToolTip": "backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase\\GetTaskByIdUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:22:46.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "backend\\LebenChallenge\\Infrastructure\\Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "backend\\LebenChallenge\\Infrastructure\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:11:57.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskItemController.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Api\\Controllers\\TaskItemController.cs",
+              "RelativeDocumentMoniker": "backend\\LebenChallenge\\Api\\Controllers\\TaskItemController.cs",
+              "ToolTip": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Api\\Controllers\\TaskItemController.cs",
+              "RelativeToolTip": "backend\\LebenChallenge\\Api\\Controllers\\TaskItemController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:10:41.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteTaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\DTO\\DeleteTaskDTO.cs",
+              "RelativeDocumentMoniker": "backend\\LebenChallenge\\Application\\DTO\\DeleteTaskDTO.cs",
+              "ToolTip": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\DTO\\DeleteTaskDTO.cs",
+              "RelativeToolTip": "backend\\LebenChallenge\\Application\\DTO\\DeleteTaskDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:08:48.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateTaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\DTO\\CreateTaskDTO.cs",
+              "RelativeDocumentMoniker": "backend\\LebenChallenge\\Application\\DTO\\CreateTaskDTO.cs",
+              "ToolTip": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\DTO\\CreateTaskDTO.cs",
+              "RelativeToolTip": "backend\\LebenChallenge\\Application\\DTO\\CreateTaskDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:08:46.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompleteTaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\DTO\\CompleteTaskDTO.cs",
+              "RelativeDocumentMoniker": "backend\\LebenChallenge\\Application\\DTO\\CompleteTaskDTO.cs",
+              "ToolTip": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\DTO\\CompleteTaskDTO.cs",
+              "RelativeToolTip": "backend\\LebenChallenge\\Application\\DTO\\CompleteTaskDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:08:43.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\Interfaces\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "backend\\LebenChallenge\\Application\\Interfaces\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\sofia\\source\\repos\\junior-fullstack-challenge\\backend\\LebenChallenge\\Application\\Interfaces\\ITaskRepository.cs",
+              "RelativeToolTip": "backend\\LebenChallenge\\Application\\Interfaces\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:08:41.307Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 174,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

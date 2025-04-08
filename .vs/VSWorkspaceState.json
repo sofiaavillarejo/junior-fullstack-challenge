@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\LebenChallenge",
+    "\\backend\\LebenChallenge\\Api",
+    "\\backend\\LebenChallenge\\Api\\Controllers",
+    "\\backend\\LebenChallenge\\Application",
+    "\\backend\\LebenChallenge\\Application\\UseCases",
+    "\\backend\\LebenChallenge\\Application\\UseCases\\GetTaskByIdUseCase",
+    "\\backend\\LebenChallenge\\Infrastructure",
+    "\\backend\\LebenChallenge\\Infrastructure\\Repositories",
+    "\\backend\\LebenChallenge\\Properties"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -13,16 +13,28 @@ public class TaskItemController : ControllerBase
     private readonly ICreateTaskUseCase _createTaskUseCase;
     private readonly IGetAllTasksUseCase _getAllTasksUseCase;
     private readonly ICompleteTaskUseCase _completeTaskUseCase;
+    private readonly IGetTaskByIdUseCase _getTaskByIdUseCase;
+    private readonly IDeleteTaskUseCase _deleteTaskUseCase;
+    private readonly IUpdateTaskUseCase _updateTaskUseCase;
+    private readonly IUpdateTaskPriorityUseCase _updateTaskPriorityUseCase;
 
     public TaskItemController(
         ICreateTaskUseCase createTaskUseCase,
         ICompleteTaskUseCase completeTaskUseCase,
-        IGetAllTasksUseCase getAllTasksUseCase
+        IGetAllTasksUseCase getAllTasksUseCase,
+        IGetTaskByIdUseCase getTaskByIdUseCase,
+        IDeleteTaskUseCase deleteTaskUseCase,
+        IUpdateTaskUseCase updateTaskUseCase,
+        IUpdateTaskPriorityUseCase updateTaskPriorityUseCase
     )
     {
         _createTaskUseCase = createTaskUseCase;
         _completeTaskUseCase = completeTaskUseCase;
         _getAllTasksUseCase = getAllTasksUseCase;
+        _getTaskByIdUseCase = getTaskByIdUseCase;
+        _deleteTaskUseCase = deleteTaskUseCase;
+        _updateTaskUseCase = updateTaskUseCase;
+        _updateTaskPriorityUseCase = updateTaskPriorityUseCase;
     }
 
     [HttpGet]
@@ -33,9 +45,14 @@ public class TaskItemController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public Task<IActionResult> GetById(int id)
+    public async Task<IActionResult> GetById(int id)
     {
-        throw new NotImplementedException("GetById method not implemented");
+        TaskItem taskItem = await _getTaskByIdUseCase.ExecuteAsync(id);
+        if (taskItem == null)
+        {
+            return NotFound();
+        }
+        return Ok(taskItem);
     }
 
     [HttpPost]
@@ -46,14 +63,59 @@ public class TaskItemController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public Task<IActionResult> Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
-        throw new NotImplementedException("Delete method not implemented");
+        try
+        {
+            var deleteTask = new DeleteTaskDTO { Id = id };
+            await _deleteTaskUseCase.ExecuteAsync(deleteTask);
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            return NotFound(ex.Message);
+        }
     }
 
     [HttpPut("{id}/complete")]
-    public Task<IActionResult> Complete(int id)
+    public async Task<IActionResult> Complete([FromBody] CompleteTaskDTO dto)
     {
-        throw new NotImplementedException("Complete method not implemented");
+        try
+        {
+            var completedTask = await _completeTaskUseCase.ExecuteAsync(dto);
+            return Ok(completedTask);
+        }
+        catch (Exception ex)
+        {
+            return NotFound(ex.Message);
+        }
+    }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Update(int id, [FromBody] UpdateTaskDTO dto)
+    {
+        try
+        {
+            TaskItem task = await _updateTaskUseCase.ExecuteAsync(id, dto);
+            return Ok(task);
+        }
+        catch (Exception ex)
+        {
+            return NotFound(ex.Message);
+        }
+    }
+
+    [HttpPut("{id}/priority")]
+    public async Task<IActionResult> UpdatePriority(int id, [FromBody] UpdateTaskPriorityDTO dto)
+    {
+        try
+        {
+            var updatedTask = await _updateTaskPriorityUseCase.ExecuteAsync(id, dto);
+            return Ok(updatedTask);
+        }
+        catch (Exception ex)
+        {
+            return NotFound(ex.Message);
+        }
     }
 }
