@@ -14,11 +14,10 @@
         - Delete -> si clicas sobre 🗑️, se borra esa tarea.
    * La funcionalidad de editar, se puede probar directamente desde la API, que funciona perfectamente.
 ---
-# ⭐⭐⭐ EXTRAS
-Como implementaciones extras, he añadido:
-   -Component "CreateTask", que aunque la prueba técnica no requería agregar formulario de creación ni de editar, he añadido el de crear para probar la funcionalidad de la API de forma visual en el front.
-   -Buscador por texto -> se puede buscar tareas de froma accesible a través del buscador situado encima de la tabla. Al ir introduciendo letras, automáticamente va búscando de forma dinámica.
-   -Botón "Details" en la tabla -> Si se quieren ver los detalles más importantes de la task (ya que no los he mostrado en la tabla todos), al hacer click en el botón, se abre automáticamente un Modal dónde puedes ver toda la información de la    tarea.
+# ⭐⭐ EXTRAS
+* *➕*Component "CreateTask"**, que aunque la prueba técnica no requería agregar formulario de creación ni de editar, he añadido el de crear para probar la funcionalidad de la API de forma visual en el front.
+* **🔎Buscador por texto** -> se puede buscar tareas de froma accesible a través del buscador situado encima de la tabla. Al ir introduciendo letras, automáticamente va búscando de forma dinámica.
+* 🕵🏻‍♂️Botón **"Details"** en la tabla -> Si se quieren ver los detalles más importantes de la task (ya que no los he mostrado en la tabla todos), al hacer click en el botón, se abre automáticamente un Modal dónde puedes ver toda la información de la    tarea.
 ---
 ### 💬 Comentarios
 Los estilos los he implementado utilizando SCSS, aunque no son los mejores que he hecho, pero no ha quedado nada mal. Por lo menos no es difícil de ver la app.
