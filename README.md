@@ -2,7 +2,7 @@
 ---
 ## 🧠 Backend
 - He añadido el código que faltaba en las funcionalidades creadas pero que estaban incompletas de código y además, añado los siguientes endpoints:
-   1. `PUT /api/TaskItem/{id}
+   1. `PUT /api/TaskItem/{id}`
    2. `PUT /api/TaskItem/{id}/priority`
 -Realizo modificaciones de TaskItem para incluir "priority" y demás.
 --- 
