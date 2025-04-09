@@ -37,7 +37,6 @@ export default class Router extends Component {
             <Route path='/createtask' element={<CreateTask/>} />
             <Route path="/deletetask/:idtask" element={<DeleteTaskItem />} />
             <Route path="/updatepriority/:idtask/:priority" element={<UpdatePriorityTask />} /> 
-
           </Routes>
         </BrowserRouter>
       </div>

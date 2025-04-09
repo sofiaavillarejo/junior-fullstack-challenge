@@ -38,25 +38,25 @@ class DeleteTask extends Component<DeleteTaskProps, State> {
         ) : (
           <div className="delete-task-container">
             <div className="delete-icon">🗑️</div>
-            <h1>¿Deseas eliminar esta tarea?</h1>
-            <p>Esta acción no se puede deshacer y la tarea será eliminada permanentemente.</p>
+            <h1>Do you want to delete this task?</h1>
+            <p>This action cannot be undone, and the task will be permanently deleted.</p>
             
             <div className="buttons-container">
               <button className="btn-danger" onClick={() => this.deleteTaskItem()}>
-                Confirmar eliminación
+                Confirm deletion
               </button>
               <button className="btn-cancel" onClick={() => this.setState({ status: true })}>
-                Cancelar
+                Cancel
               </button>
             </div>
             
             <p className="warning-message">
-              Nota: Los datos eliminados no podrán ser recuperados.
+              Note: Deleted data cannot be recovered.
             </p>
           </div>
         )}
       </div>
-    );
+    );    
   }
 }
 
