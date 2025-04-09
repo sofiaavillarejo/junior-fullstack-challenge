@@ -1,3 +1,31 @@
+# ⭐ Instrucciones del código
+---
+## 🧠 Backend
+- He añadido el código que faltaba en las funcionalidades creadas pero que estaban incompletas de código y además, añado los siguientes endpoints:
+   1. `PUT /api/TaskItem/{id}
+   2. `PUT /api/TaskItem/{id}/priority`
+-Realizo modificaciones de TaskItem para incluir "priority" y demás.
+--- 
+## 💻 Frontend
+-Se listan todas las tareas existentes en una tabla, que incluye funcionalidades:
+   * En la misma tabla, se encuentran varios campos:
+        - Priority -> prioridad de la tarea (clicando en ⚙️, redirige a otra página para cambiar su prioridad. Por defecto, la prioridad con la que se crea es 1 en el formulario añadido en             la página. En Swagger, se crea con la prioridad que le pongas (del 1-5)).
+        - Completed -> checkbox para marcar la tarea como completada.
+        - Delete -> si clicas sobre 🗑️, se borra esa tarea.
+   * La funcionalidad de editar, se puede probar directamente desde la API, que funciona perfectamente.
+---
+# ⭐⭐⭐ EXTRAS
+Como implementaciones extras, he añadido:
+   -Component "CreateTask", que aunque la prueba técnica no requería agregar formulario de creación ni de editar, he añadido el de crear para probar la funcionalidad de la API de forma visual en el front.
+   -Buscador por texto -> se puede buscar tareas de froma accesible a través del buscador situado encima de la tabla. Al ir introduciendo letras, automáticamente va búscando de forma dinámica.
+   -Botón "Details" en la tabla -> Si se quieren ver los detalles más importantes de la task (ya que no los he mostrado en la tabla todos), al hacer click en el botón, se abre automáticamente un Modal dónde puedes ver toda la información de la    tarea.
+---
+### 💬 Comentarios
+Los estilos los he implementado utilizando SCSS, aunque no son los mejores que he hecho, pero no ha quedado nada mal. Por lo menos no es difícil de ver la app.
+¡Gracias por vuestro tiempo! 😁
+
+---
+
 # 🧪 Instrucciones de la prueba técnica
 
 Esta prueba consiste en completar una API y desarrollar una pequeña aplicación frontend que consuma dicha API. El backend ya tiene una estructura base siguiendo **Clean Architecture**, con una base de datos **en memoria**.
