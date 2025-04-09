@@ -1,20 +1,31 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom';
+import './../styles/menu.scss';
 
 export default class MenuApp extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+        <nav className="navbar">
           <div className="container-fluid">
             <NavLink className="navbar-brand" to="/">Tasks</NavLink>
-            <div className="collapse navbar-collapse" id="navbarsExample03">
-              <ul className="navbar-nav me-auto mb-2 mb-sm-0">
+            <div className="navbar-collapse">
+              <ul className="navbar-nav me-auto">
                 <li className="nav-item">
-                  <NavLink className="nav-link active" aria-current="page" to="/">Task List</NavLink>
+                  <NavLink 
+                    className={({isActive}) => isActive ? "nav-link active" : "nav-link"} 
+                    to="/"
+                  >
+                    Task List
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/createtask">Crear tarea</NavLink>
+                  <NavLink 
+                    className={({isActive}) => isActive ? "nav-link active" : "nav-link"} 
+                    to="/createtask"
+                  >
+                    Create new task
+                  </NavLink>
                 </li>
               </ul>
             </div>

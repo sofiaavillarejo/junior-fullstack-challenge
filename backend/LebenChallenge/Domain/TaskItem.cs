@@ -8,10 +8,6 @@ namespace LebenChallenge.Domain
         public DateTime DueDate { get; private set; }
         public bool IsCompleted { get; private set; }
         public int Priority { get; private set; }
-        public TaskItem()
-        {
-            // Default constructor for ORM or serialization purposes
-        }
 
         public TaskItem(string name, string description, DateTime dueDate, int priority)
         {
@@ -19,7 +15,7 @@ namespace LebenChallenge.Domain
             Description = description;
             DueDate = dueDate;
             IsCompleted = false;
-            Priority = 1;
+            Priority = priority;
         }
 
         public void MarkAsCompleted()

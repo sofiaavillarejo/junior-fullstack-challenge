@@ -78,11 +78,11 @@ public class TaskItemController : ControllerBase
     }
 
     [HttpPut("{id}/complete")]
-    public async Task<IActionResult> Complete([FromBody] CompleteTaskDTO dto)
+    public async Task<IActionResult> Complete(int id)
     {
         try
         {
-            var completedTask = await _completeTaskUseCase.ExecuteAsync(dto);
+            var completedTask = await _completeTaskUseCase.ExecuteAsync(id);
             return Ok(completedTask);
         }
         catch (Exception ex)

@@ -18,6 +18,10 @@ public class TaskRepository : ITaskRepository
 
     public async Task<TaskItem> AddAsync(TaskItem task)
     {
+        if (task.Priority < 1 || task.Priority > 5)
+        {
+            throw new ArgumentException("La prioridad debe estar entre 1 y 5.");
+        }
         TaskItem taskItem = new TaskItem(task.Name, task.Description, task.DueDate, task.Priority);
         _context.Tasks.Add(taskItem);
 

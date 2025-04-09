@@ -1,0 +1,64 @@
+@import './variables';
+
+.update-priority-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  text-align: center;
+
+  h1 {
+    color: $text-color;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 1rem;
+    color: darken($text-color, 10%);
+    margin-bottom: 10px;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    font-size: 1rem;
+    background: $background-light;
+    cursor: pointer;
+    transition: background $transition-time $transition-ease;
+
+    &:hover {
+      background: $hover-color;
+    }
+
+    &:focus {
+      border-color: $primary-color;
+      outline: none;
+    }
+  }
+
+  .btn-warning {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: $border-radius;
+    cursor: pointer;
+    transition: opacity $transition-time $transition-ease, transform 0.2s ease;
+
+    &:hover {
+      opacity: 0.8;
+      transform: scale(1.03);
+    }
+
+    &:active {
+      transform: scale(0.97);
+    }
+  }
+}

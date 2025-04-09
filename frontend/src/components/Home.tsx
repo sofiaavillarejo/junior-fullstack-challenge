@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Global from './Global';
 import axios from 'axios';
 import { Navigate, NavLink } from 'react-router-dom';
+import './../styles/home.scss';
 
 interface TaskItem {
   id: number;
@@ -9,17 +10,17 @@ interface TaskItem {
   description: string;
   dueDate: string;
   isCompleted: boolean;
-  priority?: number;
+  priority: number;
 }
 
 interface State {
   tasks: TaskItem[];
 }
 
-export default class Home extends Component {
+export default class Home extends Component<{}, State> {
   state: State = {
-    tasks: []
-  }
+    tasks: [],
+  };
 
   getAllTasks = () => {
     const request = "TaskItem";
@@ -34,13 +35,26 @@ export default class Home extends Component {
     })
   }
 
+  isCompletedTask = (idtask: number) => {
+    console.log(idtask);
+    const url = `${Global.urlApiTask}TaskItem/${idtask}/complete`;
+    axios.put(url, {}, { headers: { "Content-Type": "application/json" } })
+      .then((response) => {
+        console.log(`Task ${idtask} completed!`);
+        this.getAllTasks();
+      })
+      .catch(error => {
+        console.error("Error: ", error);
+      });
+  }
+
   componentDidMount(): void {
     this.getAllTasks();
   }
 
-  render(){
+  render() {
     return (
-      <div>
+      <div className="task-container">
         <h1>Task List</h1>
         <table className="table">
           <thead>
@@ -52,6 +66,7 @@ export default class Home extends Component {
               <th>Priority</th>
               <th>Completed</th>
               <th>Delete</th>
+              <th>Details</th>
             </tr>
           </thead>
           <tbody>
@@ -61,9 +76,21 @@ export default class Home extends Component {
                 <td>{task.name}</td>
                 <td>{task.description}</td>
                 <td>{task.dueDate}</td>
-                <NavLink to={`/updatepriority/${task.id}/${task.priority}`}>{task.priority} Cambiar prioridad</NavLink>
-                <td>{task.isCompleted ? 'Yes' : 'No'}</td>
-                <td><NavLink to={"/deletetask/" + task.id }>Borrar</NavLink></td>
+                <td className="priority-link">
+                  {task.priority}
+                  <NavLink to={`/updatepriority/${task.id}/${task.priority}`}>⚙️</NavLink>
+                </td>
+                <td className={task.isCompleted ? 'task-completed' : 'task-pending'} onClick={() => this.isCompletedTask(task.id)}>
+                  {task.isCompleted ? "Completed" : "Pending"}
+                  <input
+                    type="checkbox"
+                    checked={task.isCompleted}
+                    onChange={() => this.isCompletedTask(task.id)}
+                    className="task-checkbox"
+                  />
+                </td>
+                <td><NavLink to={"/deletetask/" + task.id} className="delete-link">🗑️</NavLink></td>
+                <td><NavLink to={"/details/" + task.id}>Details</NavLink></td>
               </tr>
             ))}
           </tbody>

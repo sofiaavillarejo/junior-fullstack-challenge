@@ -1,0 +1,99 @@
+// menu.scss
+
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$danger-color: #e74c3c;
+$text-color: #333;
+$background-light: #f8f9fa;
+$border-color: #dee2e6;
+$box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+$border-radius: 5px;
+$transition-time: 0.3s;
+$transition-ease: ease;
+
+@mixin transition($property: all, $duration: 0.3s) {
+  transition: $property $duration $transition-ease;
+}
+
+// Estilos para el contenedor de eliminación de tareas
+.delete-task-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  text-align: center;
+  border: 1px solid $border-color;
+
+  .delete-icon {
+    font-size: 3rem;
+    color: $danger-color;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    color: $text-color;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 1rem;
+    color: darken($text-color, 10%);
+    margin-bottom: 20px;
+  }
+
+  .buttons-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+    .btn-danger {
+      background-color: $danger-color;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: $border-radius;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: opacity $transition-time $transition-ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+
+    .btn-cancel {
+      background-color: $primary-color;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: $border-radius;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: opacity $transition-time $transition-ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+
+  .warning-message {
+    font-size: 0.9rem;
+    color: $danger-color;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+}
+
