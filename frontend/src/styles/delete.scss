@@ -1,21 +1,9 @@
-// menu.scss
-
-$primary-color: #3498db;
-$secondary-color: #2ecc71;
-$danger-color: #e74c3c;
-$text-color: #333;
-$background-light: #f8f9fa;
-$border-color: #dee2e6;
-$box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-$border-radius: 5px;
-$transition-time: 0.3s;
-$transition-ease: ease;
+@import './variables';
 
 @mixin transition($property: all, $duration: 0.3s) {
   transition: $property $duration $transition-ease;
 }
 
-// Estilos para el contenedor de eliminación de tareas
 .delete-task-container {
   max-width: 500px;
   margin: 40px auto;
